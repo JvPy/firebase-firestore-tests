@@ -1,5 +1,5 @@
 import addName from '../src/api/http/addName'; 
-const firebaseAdmin = require('firebase-admin'); // Import mocked Firebase Admin
+const firebaseAdmin = require('firebase-admin');
 
 describe('addName function', () => {
   let req: Record<string, any>, res: Record<string, any>, db: any;
